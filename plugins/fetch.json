@@ -1,0 +1,20 @@
+{
+    "org.apache.cordova.file": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.file"
+        }
+    },
+    "org.apache.cordova.camera": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.camera"
+        }
+    },
+    "io.iclue.backgroundvideo": {
+        "source": {
+            "type": "registry",
+            "id": "io.iclue.backgroundvideo"
+        }
+    }
+}

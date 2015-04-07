@@ -1,0 +1,25 @@
+{
+    "version": "0.0.5",
+    "name": "io.iclue.backgroundvideo",
+    "cordova_name": "backgroundvideo",
+    "description": "A simple Cordova/Phonegap plugin to capture video and then display it onscreen via a transparent overlay without affecting app functionality.",
+    "license": "GPL3",
+    "keywords": [
+        "video",
+        " background",
+        " transparent",
+        " overlay",
+        " recording",
+        " camera"
+    ],
+    "platforms": [
+        "ios",
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}
