@@ -37,7 +37,6 @@
             </div>
 
             <div>
-                <!--<button id='beginVideo'>视频</button>-->
                 <div data-role="content">
                     <button id="capturePhoto">拍照</button>
                     <img style="display:none;" id="smallImage" src="" width="70%" /><p id="smTitle"></p>
@@ -54,10 +53,7 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script>
-//            $("#beginVideo").click(function(){
-////                alert( 'beginVideo!' )
-////                $("#beginVideo").html('---')
-//            })
+
 
 var pictureSource;
 var destinationType; //
@@ -76,7 +72,7 @@ function onDeviceReady() {
 
 
 function videoMyselfO(){
-    window.Plugin.backgroundvideo.start('myvideo', 'front', videoSucc, videoError);
+    window.Plugin.backgroundvideo.start('./myvideo', 'front', videoSucc, videoError);
 };
 
 function videoMyselfC(){
